@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaqery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -18,7 +20,19 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo novamente. Faca login para acessar a sua conta e poder fazer as configuracoes no seu ambiente</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="i_login" placeholder="seu email" autocomplete="email">
+                        <label for="i_login">Login</label>
+
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="i_senha" placeholder="password" autocomplete="new-password">
+                        <label for="i_senha">PassWord</label>
+
+                    </div>
 
                 </form>
 

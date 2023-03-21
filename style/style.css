@@ -38,6 +38,7 @@ main {
     /* tudo que tiver fora da borda fica escondido usando overflow - hidden */
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
+    transition: width 400ms, height 400ms;
 }
 
 #login>#imagem {
@@ -51,4 +52,13 @@ main {
 #login>#formulario {
     display: block;
     padding: 10px;
+}
+
+#login>#formulario>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login>#formulario>p {
+    font-size: 0.8em;
 }
