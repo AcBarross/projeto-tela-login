@@ -47,6 +47,7 @@ main {
     background-size: cover;
     height: 200px;
     display: block;
+    background-position: bottom center;
 }
 
 #login>#formulario {
